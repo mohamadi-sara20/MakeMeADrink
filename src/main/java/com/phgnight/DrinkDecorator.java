@@ -6,7 +6,7 @@ public abstract class DrinkDecorator implements Drink{
         this.drink = drink;
     }
 
-    public double getPrice(){return getPrice();}
+    public int getPrice(){return drink.getPrice();}
     public String getDescription(){return drink.getDescription();}
 
 }

@@ -1,12 +1,12 @@
 package com.phgnight;
 
 public class Orange implements Drink{
-    private double price;
-    public Orange(double price){
+    private int price;
+    public Orange(int price){
         this.price = price;
     }
 
-    public double getPrice(){return this.price;}
-    public String getDescription(){return "Orange juice";}
+    public int getPrice(){return this.price;}
+    public String getDescription(){return "Orange Juice";}
 
 }
